@@ -1,2 +1,2 @@
 # pioneer-eureka-server
-Pioneer Eureka Server
+A discovery server for services. 
