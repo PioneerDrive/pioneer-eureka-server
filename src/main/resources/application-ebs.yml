@@ -1,0 +1,12 @@
+server:
+  port: ${PORT:5000} # Indicate the default PORT where this service will be started
+ 
+   
+management:
+  security:
+    enabled: false
+    
+spring:
+  boot:
+    admin:
+      context-path: /admin  #A different context path for Spring boot admin server has been provided avoiding conflict with eureka    
